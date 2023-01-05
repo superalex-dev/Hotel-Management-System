@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eFqdOyjjYaqCZDZhhuOtbG0yLUTqrkb0AujiWtyPHKnHbvNjsOfYaM6k5NrRqz8k+T8/O85wwYbi1BlWN1bZ5A==",
+  "dgSpecHash": "78gT4FRfCDNxXEgp7gEwcOWOdls7l8MvIR4lhgApIhu0NeQMkynrKDdP6YuUVLH/UYuCjXhZ7gkJQvqCghXLSw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\naido\\Desktop\\HotelDB\\Hotel Management System\\Hotel Management System\\Hotel Management System.csproj",
+  "projectFilePath": "C:\\Users\\naido\\Desktop\\Hotel-Management-System\\HotelDB\\Hotel Management System\\Hotel Management System\\Hotel Management System.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\naido\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\naido\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

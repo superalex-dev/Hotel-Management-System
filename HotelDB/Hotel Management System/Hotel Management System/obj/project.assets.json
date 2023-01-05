@@ -10616,11 +10616,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\naido\\Desktop\\HotelDB\\Hotel Management System\\Hotel Management System\\Hotel Management System.csproj",
+      "projectUniqueName": "C:\\Users\\naido\\Desktop\\Hotel-Management-System\\HotelDB\\Hotel Management System\\Hotel Management System\\Hotel Management System.csproj",
       "projectName": "Hotel Management System",
-      "projectPath": "C:\\Users\\naido\\Desktop\\HotelDB\\Hotel Management System\\Hotel Management System\\Hotel Management System.csproj",
+      "projectPath": "C:\\Users\\naido\\Desktop\\Hotel-Management-System\\HotelDB\\Hotel Management System\\Hotel Management System\\Hotel Management System.csproj",
       "packagesPath": "C:\\Users\\naido\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\naido\\Desktop\\HotelDB\\Hotel Management System\\Hotel Management System\\obj\\",
+      "outputPath": "C:\\Users\\naido\\Desktop\\Hotel-Management-System\\HotelDB\\Hotel Management System\\Hotel Management System\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\naido\\AppData\\Roaming\\NuGet\\NuGet.Config",
