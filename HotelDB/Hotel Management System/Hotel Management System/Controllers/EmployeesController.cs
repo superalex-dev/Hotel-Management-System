@@ -21,7 +21,7 @@ namespace Hotel_Management_System.Controllers
         // GET: Employees
         public async Task<IActionResult> Index()
         {
-              return _context.Employees != null ? 
+              return _context.Employees != null ?
                           View(await _context.Employees.ToListAsync()) :
                           Problem("Entity set 'HotelDBContext.Employees'  is null.");
         }
