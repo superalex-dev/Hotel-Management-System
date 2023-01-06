@@ -5,7 +5,7 @@
 }
 
 <h1>Create</h1>
-
+<br />
 <h4>Booking</h4>
 <hr />
 <div class="row">
@@ -17,27 +17,33 @@
                 <input asp-for="GuestId" class="form-control" />
                 <span asp-validation-for="GuestId" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group">
                 <label asp-for="RoomNumber" class="control-label"></label>
                 <input asp-for="RoomNumber" class="form-control" />
                 <span asp-validation-for="RoomNumber" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group">
                 <label asp-for="CheckIn" class="control-label"></label>
                 <input asp-for="CheckIn" class="form-control" />
                 <span asp-validation-for="CheckIn" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group">
                 <label asp-for="CheckOut" class="control-label"></label>
                 <input asp-for="CheckOut" class="form-control" />
                 <span asp-validation-for="CheckOut" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
+
+<br />
 
 <div>
     <a asp-action="Index">Back to List</a>

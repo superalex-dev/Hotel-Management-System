@@ -5,7 +5,7 @@
 }
 
 <h1>Edit</h1>
-
+<br />
 <h4>Role</h4>
 <hr />
 <div class="row">
@@ -18,12 +18,15 @@
                 <input asp-for="RoleName" class="form-control" />
                 <span asp-validation-for="RoleName" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
+
+<br />
 
 <div>
     <a asp-action="Index">Back to List</a>
