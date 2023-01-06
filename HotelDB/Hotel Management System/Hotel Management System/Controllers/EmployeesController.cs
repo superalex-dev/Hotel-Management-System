@@ -55,7 +55,7 @@ namespace Hotel_Management_System.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("EmployeeId,Name,Role,Phone,Email")] Employee employee)
+        public async Task<IActionResult> Create([Bind("EmployeeId,Name,RoleId,Phone,Email")] Employee employee)
         {
             if (ModelState.IsValid)
             {
@@ -87,7 +87,7 @@ namespace Hotel_Management_System.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("EmployeeId,Name,Role,Phone,Email")] Employee employee)
+        public async Task<IActionResult> Edit(int id, [Bind("EmployeeId,Name,RoleId,Phone,Email")] Employee employee)
         {
             if (id != employee.EmployeeId)
             {
