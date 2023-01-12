@@ -55,7 +55,7 @@ namespace Hotel_Management_System.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("RoomNumber,RoomType,Capacity,Rate")] Room room)
+        public async Task<IActionResult> Create([Bind("RoomNumber,RoomType,Capacity,Rate,Status")] Room room)
         {
             if (ModelState.IsValid)
             {
@@ -87,7 +87,7 @@ namespace Hotel_Management_System.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("RoomNumber,RoomType,Capacity,Rate")] Room room)
+        public async Task<IActionResult> Edit(int id, [Bind("RoomNumber,RoomType,Capacity,Rate,Status")] Room room)
         {
             if (id != room.RoomNumber)
             {

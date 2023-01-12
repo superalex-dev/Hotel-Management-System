@@ -11,7 +11,7 @@ namespace Hotel_Management_System.Models
             public string RoomType { get; set; }
             public int Capacity { get; set; }
             public decimal Rate { get; set; }
-            //public int Status { get; set; }
+            public int Status { get; set; }
         }
     }
 
