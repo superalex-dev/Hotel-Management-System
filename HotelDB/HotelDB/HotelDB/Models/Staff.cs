@@ -1,7 +1,9 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 public class Staff
 {
+    [Key]
     public int StaffID { get; set; }
     public int HotelID { get; set; }
     public string FirstName { get; set; }

@@ -16,6 +16,7 @@ public class HotelManagementContext : DbContext
     public DbSet<Role> Roles { get; set; }
     public DbSet<StaffRole> StaffRoles { get; set; }
 
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<StaffRole>()

@@ -1,7 +1,9 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 public class Booking
 {
+    [Key]
     public int BookingID { get; set; }
     public int RoomID { get; set; }
     public string GuestName { get; set; }

@@ -1,7 +1,9 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 public class Payment
 {
+    [Key]
     public int PaymentID { get; set; }
     public int BookingID { get; set; }
     public string PaymentMethod { get; set; }
