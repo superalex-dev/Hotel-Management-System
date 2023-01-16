@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\naido\\Desktop\\HotelDB\\HotelDB\\HotelDB\\HotelDB.csproj": {}
+    "C:\\Users\\naido\\Desktop\\Hotel-Management-System\\HotelDB\\HotelDB\\HotelDB\\HotelDB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\naido\\Desktop\\HotelDB\\HotelDB\\HotelDB\\HotelDB.csproj": {
+    "C:\\Users\\naido\\Desktop\\Hotel-Management-System\\HotelDB\\HotelDB\\HotelDB\\HotelDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\naido\\Desktop\\HotelDB\\HotelDB\\HotelDB\\HotelDB.csproj",
+        "projectUniqueName": "C:\\Users\\naido\\Desktop\\Hotel-Management-System\\HotelDB\\HotelDB\\HotelDB\\HotelDB.csproj",
         "projectName": "HotelDB",
-        "projectPath": "C:\\Users\\naido\\Desktop\\HotelDB\\HotelDB\\HotelDB\\HotelDB.csproj",
+        "projectPath": "C:\\Users\\naido\\Desktop\\Hotel-Management-System\\HotelDB\\HotelDB\\HotelDB\\HotelDB.csproj",
         "packagesPath": "C:\\Users\\naido\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\naido\\Desktop\\HotelDB\\HotelDB\\HotelDB\\obj\\",
+        "outputPath": "C:\\Users\\naido\\Desktop\\Hotel-Management-System\\HotelDB\\HotelDB\\HotelDB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\naido\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,32 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

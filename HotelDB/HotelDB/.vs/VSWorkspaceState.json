@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\HotelDB",
+    "\\HotelDB\\Controllers",
+    "\\HotelDB\\Models",
+    "\\HotelDB\\Views",
+    "\\HotelDB\\Views\\Shared"
+  ],
+  "SelectedNode": "\\HotelDB\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}
