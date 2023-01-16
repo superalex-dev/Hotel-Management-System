@@ -16,17 +16,19 @@
                 <label asp-for="StaffID" class="control-label"></label>
                 <select asp-for="StaffID" class ="form-control" asp-items="ViewBag.StaffID"></select>
             </div>
+            <br />
             <div class="form-group">
                 <label asp-for="RoleID" class="control-label"></label>
                 <select asp-for="RoleID" class ="form-control" asp-items="ViewBag.RoleID"></select>
             </div>
+            <br />
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
-
+<br />
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
