@@ -1,5 +1,7 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 
+[Table("StaffRole")]
 public class StaffRole
 {
     public int StaffID { get; set; }
