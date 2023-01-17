@@ -5,14 +5,14 @@ USE HotelManagement;
 GO
 
 CREATE TABLE Hotel (
-    HotelID int PRIMARY KEY,
+    HotelID int IDENTITY(1,1) PRIMARY KEY,
     HotelName varchar(255) NOT NULL,
     Address varchar(255) NOT NULL,
     PhoneNumber varchar(255) NOT NULL
 );
 
 CREATE TABLE Room (
-    RoomID int PRIMARY KEY,
+    RoomID int IDENTITY(1,1) PRIMARY KEY,
     HotelID int FOREIGN KEY REFERENCES Hotel(HotelID),
     RoomNumber varchar(255) NOT NULL,
     RoomType varchar(255) NOT NULL,
@@ -21,7 +21,7 @@ CREATE TABLE Room (
 );
 
 CREATE TABLE Booking (
-    BookingID int PRIMARY KEY,
+    BookingID int IDENTITY(1,1) PRIMARY KEY,
     RoomID int FOREIGN KEY REFERENCES Room(RoomID),
     GuestName varchar(255) NOT NULL,
     CheckInDate date NOT NULL,
@@ -32,7 +32,7 @@ CREATE TABLE Booking (
 );
 
 CREATE TABLE Payment (
-    PaymentID int PRIMARY KEY,
+    PaymentID int IDENTITY(1,1) PRIMARY KEY,
     BookingID int FOREIGN KEY REFERENCES Booking(BookingID),
     PaymentMethod varchar(255) NOT NULL,
     PaymentDate date NOT NULL,
@@ -40,7 +40,7 @@ CREATE TABLE Payment (
 );
 
 CREATE TABLE Staff (
-    StaffID int PRIMARY KEY,
+    StaffID int IDENTITY(1,1) PRIMARY KEY,
     HotelID int FOREIGN KEY REFERENCES Hotel(HotelID),
     FirstName varchar(255) NOT NULL,
     LastName varchar(255) NOT NULL,
@@ -50,7 +50,7 @@ CREATE TABLE Staff (
 );
 
 CREATE TABLE Role (
-    RoleID int PRIMARY KEY,
+    RoleID int IDENTITY(1,1) PRIMARY KEY,
     RoleName varchar(255) NOT NULL
 );
 
