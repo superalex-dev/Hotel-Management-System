@@ -15,9 +15,6 @@ namespace HotelManagementSystem.Models
         [StringLength(500)]
         public string Description { get; set; }
 
-        [Required]
-        public decimal Rate { get; set; }
-
         public virtual ICollection<Room> Rooms { get; set; }
     }
 }
