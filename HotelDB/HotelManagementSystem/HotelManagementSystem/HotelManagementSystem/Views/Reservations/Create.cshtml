@@ -16,25 +16,30 @@
                 <label asp-for="RoomId" class="control-label"></label>
                 <select asp-for="RoomId" class ="form-control" asp-items="ViewBag.RoomId"></select>
             </div>
+            <br />
             <div class="form-group">
                 <label asp-for="GuestId" class="control-label"></label>
                 <select asp-for="GuestId" class ="form-control" asp-items="ViewBag.GuestId"></select>
             </div>
+            <br />
             <div class="form-group">
                 <label asp-for="CheckInDate" class="control-label"></label>
                 <input asp-for="CheckInDate" class="form-control" />
                 <span asp-validation-for="CheckInDate" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group">
                 <label asp-for="CheckOutDate" class="control-label"></label>
                 <input asp-for="CheckOutDate" class="form-control" />
                 <span asp-validation-for="CheckOutDate" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group">
                 <label asp-for="TotalPrice" class="control-label"></label>
                 <input asp-for="TotalPrice" class="form-control" />
                 <span asp-validation-for="TotalPrice" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
@@ -42,9 +47,13 @@
     </div>
 </div>
 
+<br />
+
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
+
+<br />
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
