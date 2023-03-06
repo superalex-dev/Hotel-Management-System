@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\naido\Desktop\Hotel-Management-System\HotelDB\HotelManagementSystem\HotelManagementSystem\HotelManagementSystem
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/naido/Desktop/Hotel-Management-System/HotelDB/HotelManagementSystem/HotelManagementSystem/HotelManagementSystem/Views/Guests/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/naido/Desktop/Hotel-Management-System/HotelDB/HotelManagementSystem/HotelManagementSystem/HotelManagementSystem/Views/Guests/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/naido/Desktop/Hotel-Management-System/HotelDB/HotelManagementSystem/HotelManagementSystem/HotelManagementSystem/Views/Guests/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/naido/Desktop/Hotel-Management-System/HotelDB/HotelManagementSystem/HotelManagementSystem/HotelManagementSystem/Views/Guests/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/naido/Desktop/Hotel-Management-System/HotelDB/HotelManagementSystem/HotelManagementSystem/HotelManagementSystem/Views/Guests/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/naido/Desktop/Hotel-Management-System/HotelDB/HotelManagementSystem/HotelManagementSystem/HotelManagementSystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
