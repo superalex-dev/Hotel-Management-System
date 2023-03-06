@@ -1,8 +1,10 @@
+using HotelManagementSystem.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-//builder.Services.AddDbContext<>
+builder.Services.AddDbContext<HotelManagementSystemContext>();
 
 var app = builder.Build();
 
