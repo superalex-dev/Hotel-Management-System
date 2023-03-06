@@ -17,15 +17,18 @@
                 <input asp-for="RoomNumber" class="form-control" />
                 <span asp-validation-for="RoomNumber" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group">
                 <label asp-for="RoomTypeId" class="control-label"></label>
                 <select asp-for="RoomTypeId" class ="form-control" asp-items="ViewBag.RoomTypeId"></select>
             </div>
+            <br />
             <div class="form-group">
                 <label asp-for="Status" class="control-label"></label>
                 <input asp-for="Status" class="form-control" />
                 <span asp-validation-for="Status" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
@@ -33,9 +36,13 @@
     </div>
 </div>
 
+<br />
+
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
+
+<br />
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
