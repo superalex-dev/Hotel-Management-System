@@ -13,6 +13,7 @@ namespace HotelManagementSystem.Models
         public string RoomNumber { get; set; }
 
         [ForeignKey("RoomType")]
+        [Column("RoomTypeId")]
         public int RoomTypeId { get; set; }
 
         [Required]

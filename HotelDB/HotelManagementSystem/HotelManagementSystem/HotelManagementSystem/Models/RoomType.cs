@@ -1,11 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HotelManagementSystem.Models
 {
     public class RoomType
     {
         [Key]
+        [Column("RoomTypeId")]
         public int RoomTypeId { get; set; }
 
         [Required]
